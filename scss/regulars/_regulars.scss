@@ -1,0 +1,19 @@
+$lightGreen: rgb(110, 253, 186);
+
+.no-list-style {
+	li {
+		list-style: none !important;
+	}
+}
+
+* {
+	margin: 0;
+	padding: 0;
+    scroll-behavior: smooth !important;
+}
+body {
+    overflow-x: hidden !important;
+}
+
+@import "./header";
+@import "./footer";

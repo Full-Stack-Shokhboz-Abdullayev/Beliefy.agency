@@ -1,0 +1,30 @@
+footer {
+	height: 70px !important;
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 80px;
+    position: relative;
+    ul {
+        height: 100%;
+        width: 20%;
+        li {
+            list-style: none;
+        }
+    }
+    .creativeness {
+        height: 100%;
+        span, i {
+            color: rgb(110, 253, 186);
+        }
+        p {
+            margin: 0 !important;
+        }
+    }
+    .copyright {
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

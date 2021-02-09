@@ -1,0 +1,183 @@
+// home media
+
+@media (max-width: 1500px) {
+	.team {
+		.wrapper {
+			padding: 100px 6vw 0px 6vw !important;
+		}
+	}
+}
+@media (max-width: 1380px) {
+	.canvas {
+		width: 250px !important;
+		height: 250px !important;
+	}
+	.team {
+		.wrapper {
+			padding: 100px 3vw 0px 3vw !important;
+		}
+	}
+}
+@media (max-width: 1220px) {
+	.team {
+		.wrapper {
+			padding: 100px 1vw 0px 1vw !important;
+		}
+	}
+}
+
+@media (max-width: 1145px) {
+	.canvas {
+		width: 225px !important;
+		height: 225px !important;
+	}
+
+	.team {
+		.wrapper {
+			padding: 160px 16vw 0px 16vw !important;
+			.profile-card_wrapper {
+				margin: 30px;
+
+				.profile-card {
+					&.even {
+						transform: translateX(70%) !important;
+					}
+					&.odd {
+						transform: translateX(-70%) !important;
+					}
+					&.done {
+						opacity: 0 !important;
+						pointer-events: none !important;
+					}
+					&.done.mobile-done,
+					&.mobile-done {
+						opacity: 1 !important;
+						pointer-events: all !important;
+						transform: translateX(0%) !important;
+					}
+				}
+			}
+			
+		}
+	}
+}
+
+@media (max-width: 1025px) {
+	.canvas {
+		width: 200px !important;
+		height: 200px !important;
+	}
+	.team {
+		.wrapper {
+			padding: 160px 6vw 0 6vw !important;
+			
+		}
+	}
+}
+
+@media (max-width: 905px) {
+	.canvas {
+		width: 175px !important;
+		height: 175px !important;
+	}
+}
+@media (max-width: 795px) {
+	.canvas_copy_title {
+		font-size: 22px !important;
+	}
+	.canvas_copy {
+		margin-top: 30px !important;
+	}
+	.canvas_copy_subtitle {
+		top: 0px !important;
+	}
+	.canvas {
+		width: 300px !important;
+		height: 300px !important;
+		margin: 50px 75px !important;
+	}
+	main .advantages__title {
+		margin-top: 80px !important;
+		h3 {
+			bottom: 5% !important;
+			top: unset !important;
+		}
+	}
+	.advantages .wrapper {
+		padding: 100px 0px 100px 0px !important;
+	}
+	.big {
+		top: 0% !important;
+	}
+	main .team {
+		.wrapper {
+			padding: 140px 12vw 90px 12vw !important;
+		}
+	}
+	body main .team .wrapper {
+		padding: 100px 0px 0px 0px !important;
+		.profile-card_wrapper {
+			margin: 40px 100px;
+			.profile-card {
+				&.even {
+					transform: translateX(-70%) !important;
+				}
+				&.odd {
+					transform: translateX(70%) !important;
+				}
+				&.done {
+					opacity: 0 !important;
+					pointer-events: none !important;
+				}
+				&.done.mobile-done,
+				&.mobile-done {
+					opacity: 1 !important;
+					pointer-events: all !important;
+					transform: translateX(0%) !important;
+				}
+			}
+		}
+	}
+}
+@media (max-width: 700px) {
+	.first_look__title {
+		h1 {
+			font-size: 100px !important;
+		}
+	}
+
+	.advantages__title {
+		h3 {
+			font-size: 22px !important;
+		}
+	}
+}
+
+@media (max-width: 540px) {
+	.advantages__title {
+		h3 {
+			font-size: 18px !important;
+		}
+	}
+}
+@media (max-width: 480px) {
+	.canvas {
+		width: 300px !important;
+		height: 300px !important;
+		margin: 70px 0px !important;
+	}
+	.advantages .wrapper {
+		padding: 10px 0px 100px 0px !important;
+	}
+}
+@media (max-width: 460px) {
+	.canvas_copy {
+		left: unset !important;
+		right: 10% !important;
+	}
+	.first_look__title {
+		h1 {
+			font-size: 80px !important;
+		}
+	}
+}
